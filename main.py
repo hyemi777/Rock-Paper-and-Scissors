@@ -3,7 +3,7 @@ import random
 while True: 
   choices = ['rock', 'paper', 'scissors']
   computerChoice = choices[random.randint(0,2)]
-  print("This is computer choice " + computerChoice + "\n");
+
   userChoice = input("What is your choice? (Rock, paper, scissors)\n")
   if userChoice == computerChoice :
     print("Tie! Try again.")
